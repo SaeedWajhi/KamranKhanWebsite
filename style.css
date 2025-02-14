@@ -11,12 +11,13 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #F26649;
-  --secondary-color: #F5F3EB;
+  --accent-color: #d1cfc9;
+  --secondary-color: #EBE9E1;
   --dark-color: #241F21;
   --grey-color: #CECBC7;
-  --body-text-color: #241F21;
-  --light-text-color: #696969;
+  --body-text-color: #E43D12;
+  --light-text-color: #E43D12;
+  --nav--text-color: #EBE9E1;
   --link-color: #241F21;
 }
 
@@ -145,11 +146,11 @@ button.btn.btn-primary.btn-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #F5F2EA;
-  --bs-btn-bg: var(--accent-color);
-  --bs-btn-border-color: var(--accent-color);
+  --bs-btn-color: #E43D12;
+  --bs-btn-bg: var(--nav--text-color);
+  --bs-btn-border-color: var(--body-text-color);
   --bs-btn-hover-color: #F5F2EA;
-  --bs-btn-hover-bg: var(--dark-color);
+  --bs-btn-hover-bg: var(--body-text-color);
   --bs-btn-hover-border-color: var(--dark-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: var(--secondary-color);
@@ -216,7 +217,7 @@ section.navigation {
 }
 
 ul.nav.nav-pills {
-  background: #FFFFFF;
+  background: #E43D12;
   display: grid;
   border-radius: 60px;
   width: 119px;
@@ -229,7 +230,7 @@ ul.nav.nav-pills {
 }
 
 .nav-link {
-  color: var(--light-text-color);
+  color: var(--nav--text-color);
 }
 
 .nav a.nav-link {
@@ -363,15 +364,17 @@ header.position-fixed {
 
 /* ----------  home section  ----------  */
 
-section#home {
-    padding: 300px 0px;
+.profile-pic {
+  width: 180px; /* Adjust size as needed */
+  height: 180px;
+  border-radius: 50%; /* Makes the image circular */
+  border: 4px solid var(--body-text-color); /* Adds a border, change color if needed */
+  object-fit: cover; /* Ensures the image covers the full area */
+  display: block;
+  margin: 0 auto 20px; /* Centers image and adds bottom margin */
 }
 
-#home .text-center {
-    background-image: url("images/kami.jpg");
-    background-repeat: no-repeat;
-    background-size: 18% 100%;
-}
+
 
 @media only screen and (max-width: 1200px) {
 
