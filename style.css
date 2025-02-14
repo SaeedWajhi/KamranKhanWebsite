@@ -361,8 +361,16 @@ header.position-fixed {
 }
 
 
+/* ----------  Navbar section -------- */
+.navbar-color {
+  background-color: var(--body-text-color);
+}
+
 
 /* ----------  home section  ----------  */
+#home .text-center {
+  margin-top: 3.5rem !important;
+}
 
 .profile-pic {
   width: 180px; /* Adjust size as needed */
@@ -374,6 +382,12 @@ header.position-fixed {
   margin: 0 auto 20px; /* Centers image and adds bottom margin */
 }
 
+.drop-shadow {
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2); /* Left shadow */
+  /* background: #fff; Ensure background is visible */
+  position: relative; /* Ensures proper shadow rendering */
+  z-index: 1; /* Keeps content above the nav */
+}
 
 
 @media only screen and (max-width: 1200px) {
