@@ -360,6 +360,18 @@ header.position-fixed {
   }
 }
 
+nav {
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+nav li {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 
 /* ----------  Navbar section -------- */
 .navbar-color {

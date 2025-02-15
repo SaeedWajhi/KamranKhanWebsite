@@ -32,102 +32,107 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navigation-bar" tabindex="0">
+
+    <header>
+        <!-- Nav Horizontal Start -->
+        <nav class="navbar navbar-expand-sm fixed-top navbar-color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/KKpic.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav  mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proExperience">Professional Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#academicExperience">Academic Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav Horizontal end  -->
+    </header>
+
+
+    <!-- Intro Carousel Start -->
+    <section id="Intro" class="mt-0">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/slider/c01.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/slider/c02.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/slider/c03.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Intro Carousel End -->
+
+
     <div class="container-fluid">
         <!-- <div class="row"> -->
-
-            <!-- Nav Horizontal Start -->
-            <nav class="navbar navbar-expand-sm sticky-top navbar-color">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/KKpic.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                        <ul class="navbar-nav  mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Clients</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Testimonials</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Professional Experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Academic Experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Nav Horizontal end  -->
-
-            <!-- Intro Start -->
-            <section id="Intro" class="mt-0">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/slider/c01.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/slider/c02.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/slider/c03.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section>
-            <!-- Intro End -->
-
+        <div class="col-lg-11 mx-auto">
             <!-- Home Start -->
             <section id="home" class="mt-0">
                 <div class="py-lg-4 my-lg-4 text-center">
@@ -173,7 +178,7 @@
             <hr class="mid-break my-2">
 
             <!-- Services Start -->
-            <section id="Services" class="mt-0">
+            <section id="services" class="mt-0">
                 <div class=" py-4 my-4 ">
                     <h2 class="fw-bold pt-4 pb-5">Services</h2>
                     <div class="row row-cols-1 row-cols-sm-2 ">
@@ -287,7 +292,7 @@
             <hr class="mid-break my-2">
 
             <!-- Client Start -->
-            <section id="Clients" class="mt-0">
+            <section id="clients" class="mt-0">
                 <div class="py-4 my-5 ">
                     <h2 class="fw-bold pb-4">Clients</h2>
                     <div class="row my-3">
@@ -307,7 +312,7 @@
             <hr class="mid-break my-2">
 
             <!-- Testimonials Start -->
-            <section id="Testimonials" class="mt-0">
+            <section id="testimonials" class="mt-0">
                 <div class=" py-4 my-5 ">
                     <h2 class="fw-bold pb-4">Testimonials</h2>
 
@@ -475,7 +480,7 @@
                 <hr class="mid-break my-2">
 
                 <!-- Professional Experience Start -->
-                <section id="ProfessionalExperience" class="mt-0">
+                <section id="proExperience" class="mt-0">
                     <div class="py-4 my-4 ">
                         <h2 class="fw-bold pb-4">Professional Experience</h2>
                         <div class="row justify-content-start" data-aos="fade-up">
@@ -568,6 +573,9 @@
 
                 <!-- Teaching Experience Start -->
                 <hr class="mid-break my-2">
+
+                <!-- Academic Experience Start -->
+                <section id="academicExperience" class="mt-0">
                 <div class="py-4 my-4 ">
                     <h2 class="fw-bold pb-4">Academic Experience</h2>
 
@@ -715,125 +723,16 @@
 
 
                 </div>
-                <!-- Teaching Experience End -->
+                </section>
+                <!-- Academic Experience End -->
             </section>
             <!-- Resume Section End  -->
+             
 
             <!--<hr class="mid-break my-2">-->
 
-            <!-- Education Start -->
-            <!--<section id="education">
-                        <div class="py-4 my-4 ">
-                            <h1 class="fw-bold mt-5">Education</h1>
-                        </div>
-
-                        <hr class="mid-break my-2">-->
-
-            <!--<section id="education">
-                            <div class="py-4 my-4>
-                                <h2 class="fw-bold pb-4">Education</h2>-->
-
-            <!--<div class="row justify-content-start" data-aos="fade-up">
-                            <div class="col-7">
-                                <div class="data-info ">
-                                    <p class="meta-date">
-                                        2008 <img src="images/Ellipse 7.png" alt="image">
-                                        <a class="open-description">NAPA</a>
-                                    </p>
-                                    <h3 class="info-title">Certification in Theatre Direction/Acting</h3>
-                                    <p>
-                                        Certification in Theatre Direction/Acting form National Academy of Performing Art (NAPA).
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-end" data-aos="fade-up">
-                            <div class="col-7">
-                                <div class="data-info  ">
-                                    <p class="meta-date">
-                                        2004 <img src="images/Ellipse 7.png" alt="image">
-                                        <a class="open-description">Karachi School of Art</a>
-                                    </p>
-                                    <h3 class="info-title">Diploma in Computer Graphics</h3>
-                                    <p>
-                                        Diploma in Computer Graphics from Karachi School of Art affiliated with Sindh Board of Technical Education (SBTE).
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-start" data-aos="fade-up">
-                            <div class="col-7">
-                                <div class="data-info ">
-                                    <p class="meta-date">
-                                        2003 <img src="images/Ellipse 7.png" alt="image">
-                                        <a class="open-description">Academy of Business Computers</a>
-                                    </p>
-                                    <h3 class="info-title">Diploma in Information Technology</h3>
-                                    <p>
-                                        Diploma in Information Technology (DIT) from Academy of Business Computers (ABC) affiliated with Skill Development Council (SDC).
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="row justify-content-end" data-aos="fade-up">
-                            <div class="col-7">
-                                <div class="data-info  ">
-                                    <p class="meta-date">
-                                        2002 <img src="images/Ellipse 7.png" alt="image">
-                                        <a class="open-description">Government College of Commerce and Economics</a>
-                                    </p>
-                                    <h3 class="info-title">Bachelor in Commerce</h3>
-                                    <p>
-                                        Bachelor in Commerce from Government College of Commerce and Economics.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-start" data-aos="fade-up">
-                            <div class="col-7">
-                                <div class="data-info ">
-                                    <p class="meta-date">
-                                        1998 <img src="images/Ellipse 7.png" alt="image">
-                                        <a class="open-description">Government College of Commerce and Economics</a>
-                                    </p>
-                                    <h3 class="info-title">Intermediate in Commerce</h3>
-                                    <p>
-                                        Intermediate in Commerce from Government College of Commerce and Economics.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-end" data-aos="fade-up">
-                            <div class="col-7">
-                                <div class="data-info  ">
-                                    <p class="meta-date">
-                                        1996 <img src="images/Ellipse 7.png" alt="image">
-                                        <a class="open-description">Azeem Children Paradise School</a>
-                                    </p>
-                                    <h3 class="info-title">Matriculation in Science</h3>
-                                    <p>
-                                        Matriculation in Science from Azeem Children Paradise School.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                </div>-->
-            <!-- Education End -->
-
-
-
-            </section>
-
             <!-- Portfolio Section Start -->
-            <section id="portfolio">
-
-
+            <section id="portfolio"  class="mt-0">
                 <div class="py-4 my-4 ">
                     <h1 class="fw-bold mt-5">Portfolio</h1>
                 </div>
@@ -937,7 +836,7 @@
             <!-- Portfolio Section End -->
 
             <!-- Contact Section Start -->
-            <section id="contact">
+            <section id="contact"  class="mt-0">
 
                 <div class="py-4 my-4 ">
                     <h1 class="fw-bold mt-5">Contact</h1>
@@ -1042,10 +941,10 @@
 
             </section>
             <!-- Contact Section End -->
-
+        </div>  <!-- Div to control overall  width of website -->
         <!-- </div> -->
-    </div>
-    <!-- </div> -->
+    </div> <!-- container end -->
+ 
 
 
 
